@@ -2,7 +2,7 @@ package com.optoself;
 
 import javax.swing.*;
 
-import view.ButtonPanel;
+import com.optoself.view.ButtonPanel;
 
 import java.awt.*;
 import java.awt.Image;

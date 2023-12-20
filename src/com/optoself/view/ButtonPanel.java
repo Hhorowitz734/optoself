@@ -18,9 +18,8 @@ public class ButtonPanel extends JPanel {
 
         // Create and add buttons based on the options
         for (String choice : options) {
-            JButton button = new JButton(choice);
-            Dimension buttonSize = new Dimension(150, 40); // Width x Height
-            button.setPreferredSize(buttonSize);
+            Dimension buttonSize = new Dimension(100, 100);
+            Button button = new Button(choice, buttonSize);
             add(button);
         }
     }
